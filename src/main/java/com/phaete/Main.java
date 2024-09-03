@@ -2,7 +2,8 @@ package com.phaete;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        // This is a comment
+        // Create a new student
+        Student student = new Student("John");
+        System.out.println(student);
     }
 }
